@@ -1,0 +1,134 @@
+main {
+  article h1 {
+    color: rgb(173, 173, 173);
+    font-size: 2rem;
+    word-break: break-all;
+    margin-left: 60%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 10px;
+    top: 100vh;
+    background-color: #333;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: solid 1px black;
+  }
+
+  section .blocPresentation {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    // margin: 10%;
+    word-break: break-all;
+
+    img {
+      width: 35%;
+      height: 50vh;
+      border-radius: 5px;
+      box-shadow: 8px 8px 15px #111;
+    }
+    p {
+      font-size: 1.3rem;
+      text-align: center;
+      width: 35%;
+    }
+  }
+  section .imgTransition {
+    margin-top: 15%;
+    margin-bottom: 10%;
+    background-image: url("../assets/plat.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    width: 100%;
+    height: 50vh;
+  }
+  section h2 {
+    color: rgb(173, 173, 173);
+    font-size: 2rem;
+    word-break: break-all;
+    margin-right: 60%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    top: 100vh;
+    border: solid 1px #111;
+    background-color: #333;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: end;
+    padding-right: 10px;
+  }
+
+  .blocCuisine {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    word-break: break-all;
+
+    img {
+      width: 35%;
+      height: 50vh;
+      border-radius: 5px;
+      box-shadow: 8px 8px 15px #111;
+    }
+    p {
+      font-size: 1.3rem;
+      text-align: center;
+      width: 35%;
+    }
+  }
+
+  .blocExemplePlat {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    word-break: break-all;
+    margin-top: 10%;
+
+    img {
+      width: 35%;
+      height: 50vh;
+      border-radius: 5px;
+      box-shadow: 8px 8px 15px #111;
+    }
+    p {
+      font-size: 1.3rem;
+      text-align: center;
+      width: 35%;
+    }
+  }
+  .imgTransition1 {
+    margin-top: 15%;
+    margin-bottom: 10%;
+    background-image: url("../assets/champagne.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    width: 100%;
+    height: 50vh;
+  }
+
+  .blocVinFromage {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    word-break: break-all;
+    margin-bottom: 5%;
+
+    img {
+      width: 35%;
+      height: 50vh;
+      border-radius: 5px;
+      box-shadow: 8px 8px 15px #111;
+    }
+    p {
+      font-size: 1.3rem;
+      text-align: center;
+      width: 35%;
+    }
+  }
+}
+
+
