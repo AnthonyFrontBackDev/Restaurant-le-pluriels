@@ -1,1 +1,1 @@
-- Telecharger dans le dossier le package node_module , qui permet d'initialiser l'app avec la commande NPM START pour ouvrir le localhost pour  obtenir le rendu visuel de l'application.
+- Verifier d'avoir tout les dossiers ReactJS.
